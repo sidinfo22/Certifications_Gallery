@@ -13,20 +13,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Initial state */
-.certification-gallery img {
-    opacity: 0; /* Fully transparent */
-    transform: scale(0.5) translateY(40px); /* Smaller and farther down */
-    filter: blur(15px); /* Increased blur for a dramatic poof effect */
-    transition: opacity 1.2s ease-out, transform 1.2s ease-out, filter 1.2s ease-out; /* Slower transition */
-  }
-  
-  /* When in view */
-  .certification-gallery img.animate {
-    opacity: 1; /* Fully visible */
-    transform: scale(1) translateY(0); /* Normal size and position */
-    filter: blur(0); /* Clear and sharp */
-  }
+
 /* Hover effect for clickable images */
 .certification-gallery img {
     cursor: pointer; /* Change cursor to a pointer when hovering */
