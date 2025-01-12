@@ -12,7 +12,17 @@
     z-index: 10001;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+footer p {
+  font-size: 12px;
+}
 
+footer a {
+  font-size: 12px;
+}
+
+footer i {
+  font-size: 10px; /* Icons can be slightly smaller if desired */
+}
 
 /* Hover effect for clickable images */
 .certification-gallery img {
